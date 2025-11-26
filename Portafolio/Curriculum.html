@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jose Antonio - Desarrollador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #3f3e3e;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 40px;
+        }
+
+        .card {
+            background-color: #ddd9d9;
+            border: none;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00ffffbe;
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            margin-top: 30px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+
+        .icon-list i {
+            font-size: 1.2rem;
+            margin-right: 10px;
+            color: #00ffff;
+        }
+
+        .contact a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="header">
+            <!-- Foto tipo carnet -->
+            <img src="img/fotocurriculum.png" alt="Foto carnet" class="profile-photo">
+            <h1>Jose Antonio</h1>
+            <h4 class="text-muted">Desarrollador</h4>
+            <p class="mt-3">Apasionado por la tecnología y el desarrollo web. Me motiva la parte visual, cuidando la
+                estética y la usabilidad en cada proyecto. Busco aportar soluciones que combinan diseño, estética y
+                eficiencia técnica.</p>
+        </div>
+        <!-- Historial Academico -->
+        <div class="section-title">Historial Academico</div>
+        <ul class="list-unstyled contact">
+            <li><i class="bi bi-DAW"></i> <a>Grado superiorDesarrollo de
+                    Aplicaciones Web 2024-2026</a>
+            </li>
+            <li><i class="bi bi-SMR"></i> <a> Grado medio Microinformatica y redes 202-202</a>
+            </li>
+
+        </ul>
+        <!-- Contacto -->
+        <div class="section-title">Contacto</div>
+        <ul class="list-unstyled contact">
+            <li><i class="bi bi-linkedin"></i> <a href="https://www.linkedin.com/in/pepe-salado-04b968397/">LinkedIn</a>
+            </li>
+            <li><i class="bi bi-github"></i> <a href="https://github.com/PepeSM04">GitHub</a></li>
+            <li><i class="bi bi-envelope"></i> p3p30210@gmail.com</li>
+            <li><i class="bi bi-phone"></i> +34 652 52 66 53</li>
+            <li><i class="bi bi-geo-alt"></i> 41006 Sevilla</li>
+        </ul>
+
+        <!-- Habilidades -->
+        <div class="section-title">Habilidades</div>
+        <ul class="icon-list">
+            <li><i class="bi bi-check-circle"></i> Adaptabilidad y aprendizaje continuo</li>
+            <li><i class="bi bi-check-circle"></i> Trabajo en equipo</li>
+            <li><i class="bi bi-check-circle"></i> Comunicación efectiva</li>
+        </ul>
+
+        <!-- Idiomas -->
+        <div class="section-title">Idiomas</div>
+        <ul class="icon-list">
+            <li><i class="bi bi-check-circle"></i> Español, Nativo</li>
+            <li><i class="bi bi-check-circle"></i> Inglés, Intermedio</li>
+        </ul>
+
+        <!-- Video -->
+        <div class="section-title">Video de Presentación</div>
+        <div class="mt-3">
+            <!-- 
+                INSTRUCCIONES:
+                Coloca aquí la ruta de tu video. 
+                Por ejemplo: src="videos/mi_presentacion.mp4"
+            -->
+            <div class="ratio ratio-16x9">
+                <video controls class="rounded">
+                    <source src="ruta/al/video.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

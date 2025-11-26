@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("img/Fondo2.0.png");
+  /* Fondo tipo Windows */
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+img {
+  margin-top: 0;       /* Elimina espacio arriba */
+  margin-bottom: 20px; /* Empuja hacia arriba */
+}
+
+
+/* Barra de tareas */
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: white;
+}
+
+.start-btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.time {
+  margin-left: auto;
+}
+
+/* Íconos de escritorio */
+.desktop-icon {
+  width: 80px;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.desktop-icon img {
+  width: 48px;
+  height: 48px;
+}
